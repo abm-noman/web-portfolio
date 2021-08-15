@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -6,6 +7,13 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 30px;
+}
+
+p{
+    color: dimgray;
+}
 .name{
     color:chocolate;
 }
@@ -19,4 +27,30 @@ h1{
 
 .half img{
     width: 100%;
+}
+
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 10px;
+}
+
+.link-button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
