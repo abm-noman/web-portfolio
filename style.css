@@ -1,0 +1,22 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.name{
+    color:chocolate;
+}
+
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+
+.half img{
+    width: 100%;
+}
